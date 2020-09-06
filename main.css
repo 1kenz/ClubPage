@@ -337,11 +337,13 @@ template {
   display: none;
 }
 
+* {
+  background-size: cover;
+}
+
 body {
   background-image: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png");
   color: #E2E2E2;
-  background-repeat: no-repeat;
-  background-size: auto;
 }
 
 .navbar {
