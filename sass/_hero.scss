@@ -1,0 +1,27 @@
+/* Rectangle 4 */
+
+.hero {
+    &__article {
+        position: absolute;
+        width: 288px;
+        height: 140px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+    &--text {
+        /* Best experience Good opportunities Valuable fellowship */
+        position: absolute;
+        width: 219px;
+        height: 80px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 16px;
+        /* or 67% */
+        color: #460808;
+    }
+}
