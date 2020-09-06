@@ -1,13 +1,13 @@
 .navbar {
-  width: 100%;
+  width: 790px;
   height: 60px;
   /* Line 1 */
   position: absolute;
   left: 0%;
   right: 0%;
   top: 0%;
-  bottom: 100%;
-  border: 1px solid black;
+  bottom: auto;
+  border-bottom: 1px solid #e2e2e2;
   transform: rotate(0.14deg);
 }
 .navbar__logo {
