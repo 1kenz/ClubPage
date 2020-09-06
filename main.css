@@ -338,16 +338,19 @@ template {
 }
 
 * {
-  background-size: cover;
+  /* %100 %100  contain*/
 }
 
 body {
-  background-image: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png");
+  background: url("https://picsum.photos/800/600?random=1"), rgba(150, 145, 145, 0.79);
+  background-blend-mode: multiply;
+  background-size: 100%, 100%;
   color: #E2E2E2;
+  background-repeat: no-repeat;
 }
 
 .navbar {
-  width: 790px;
+  width: 100%;
   height: 60px;
   /* Line 1 */
   position: absolute;
@@ -384,7 +387,7 @@ body {
   position: absolute;
   width: 52px;
   height: 16px;
-  left: 715px;
+  right: 34px;
   top: 23px;
   font-family: Roboto;
   font-style: normal;
@@ -399,7 +402,7 @@ body {
   position: absolute;
   width: 35px;
   height: 16px;
-  left: 658px;
+  right: 98px;
   top: 23px;
   font-family: Roboto;
   font-style: normal;
@@ -411,35 +414,33 @@ body {
 
 /* Rectangle 4 */
 .hero {
-  position: absolute;
-  width: 791px;
-  height: 421px;
-  background: rgba(150, 145, 145, 0.79);
-  z-index: -1;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 .hero__head {
   /* JOIN OUR BEST CLUB */
-  position: absolute;
-  width: 624px;
+  width: 100%;
   height: 59px;
-  margin-left: 143px;
-  margin-top: 96px;
   font-family: Modak;
   font-style: normal;
   font-weight: normal;
-  font-size: 54px;
-  line-height: 81px;
-  color: #000;
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+  margin: 100px auto;
+  text-align: center;
 }
 .hero__head span {
   color: orange;
 }
 .hero__box {
-  position: absolute;
+  /* Rectangle 4 */
+  position: fixed;
+  right: 150px;
+  bottom: 150px;
   width: 288px;
   height: 140px;
-  margin-left: 457px;
-  margin-top: 192px;
   background: #FFFFFF;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -448,7 +449,7 @@ body {
 }
 .hero__box--text {
   /* Best experience Good opportunities Valuable fellowship */
-  position: absolute;
+  position: relative;
   width: 219px;
   height: 80px;
   font-family: Roboto;

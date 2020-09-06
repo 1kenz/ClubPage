@@ -1,8 +1,11 @@
 * {
-  background-size: cover;
+  /* %100 %100  contain*/
 }
 
 body {
-  background-image: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png");
+  background: url("https://picsum.photos/800/600?random=1"), rgba(150, 145, 145, 0.79);
+  background-blend-mode: multiply;
+  background-size: 100%, 100%;
   color: #E2E2E2;
+  background-repeat: no-repeat;
 }

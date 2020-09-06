@@ -1,35 +1,32 @@
 /* Rectangle 4 */
 
 .hero {
-    // /* Rectangle 2 */
-    position: absolute;
-    width: 791px;
-    height: 421px;
-    background: rgba(150, 145, 145, 0.79);
-    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100%;
     &__head {
         /* JOIN OUR BEST CLUB */
-        position: absolute;
-        width: 624px;
+        width: 100%;
         height: 59px;
-        margin-left: 143px;
-        margin-top: 96px;
         font-family: Modak;
         font-style: normal;
         font-weight: normal;
-        font-size: 54px;
-        line-height: 81px;
-        color: #000;
+        font-size: 80px;
+        line-height: 80px;
+        color: white;
+        margin: 100px auto;
+        text-align: center;
         & span {
             color: orange;
         }
     }
     &__box {
-        position: absolute;
+        /* Rectangle 4 */
+        position: fixed;
+        right: 150px;
+        bottom: 150px;
         width: 288px;
         height: 140px;
-        margin-left: 457px;
-        margin-top: 192px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -37,7 +34,7 @@
         border-radius: 12px;
         &--text {
             /* Best experience Good opportunities Valuable fellowship */
-            position: absolute;
+            position: relative;
             width: 219px;
             height: 80px;
             font-family: Roboto;

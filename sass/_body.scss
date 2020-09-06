@@ -1,9 +1,24 @@
 * {
-    background-size: cover;
+    /* %100 %100  contain*/
 }
 
 body {
-    background-image: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash\ 1.png");
+    background: url("https://picsum.photos/800/600?random=1"), rgba(150, 145, 145, 0.79);
+    background-blend-mode: multiply;
+    background-size: 100%, 100%;
     color: #E2E2E2;
-    // background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
+
+// div {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: url("https://picsum.photos/800/600?random=1"), 
+//     /* ,url("https://picsum.photos/800/600?random=2"); */
+//     background-size: cover;
+//     background-blend-mode: multiply;
+//     /* background-blend-mode: lighten; */
+//   }
