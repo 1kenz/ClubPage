@@ -339,12 +339,12 @@ template {
 
 body {
   background-image: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png");
-  width: fit-content;
+  width: auto;
   color: black;
 }
 
 .navbar {
-  width: fit-content;
+  width: 100%;
   height: 60px;
   /* Line 1 */
   position: absolute;
