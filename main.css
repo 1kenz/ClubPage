@@ -366,12 +366,21 @@ body {
 }
 .navbar__right {
   position: relative;
+  height: 60px;
+  width: 100%;
   float: right;
+}
+.navbar__right a {
+  text-decoration: none;
+}
+.navbar__right a:hover {
+  text-decoration: underline;
 }
 .navbar__right--register {
   /* Register */
   position: absolute;
-  background-color: blue;
+  width: 52px;
+  height: 16px;
   left: 715px;
   top: 23px;
   font-family: Roboto;
@@ -380,6 +389,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #FF0000;
+  z-index: 1;
 }
 .navbar__right--login {
   /* Login */
@@ -402,6 +412,7 @@ body {
   width: 791px;
   height: 421px;
   background: rgba(150, 145, 145, 0.79);
+  z-index: -1;
 }
 .hero__head {
   /* JOIN OUR BEST CLUB */

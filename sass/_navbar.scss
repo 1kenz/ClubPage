@@ -20,14 +20,20 @@
         }
         &__right {
             position: relative;
-            // height: 60px;
+            height: 60px;
+            width: 100%;
             float: right;
+            & a {
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
             &--register {
                 /* Register */
                 position: absolute;
-                background-color: blue;
-                // width: 52px;
-                // height: 16px;
+                width: 52px;
+                height: 16px;
                 left: 715px;
                 top: 23px;
                 font-family: Roboto;
@@ -36,6 +42,7 @@
                 font-size: 14px;
                 line-height: 16px;
                 color: #FF0000;
+                z-index: 1;
             }
             &--login {
                 /* Login */
