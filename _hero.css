@@ -1,15 +1,40 @@
 /* Rectangle 4 */
-.hero__article {
+.hero {
+  position: absolute;
+  width: 791px;
+  height: 421px;
+  background: rgba(150, 145, 145, 0.79);
+}
+.hero__head {
+  /* JOIN OUR BEST CLUB */
+  position: absolute;
+  width: 624px;
+  height: 59px;
+  margin-left: 143px;
+  margin-top: 96px;
+  font-family: Modak;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 81px;
+  color: #000;
+}
+.hero__head span {
+  color: orange;
+}
+.hero__box {
   position: absolute;
   width: 288px;
   height: 140px;
+  margin-left: 457px;
+  margin-top: 192px;
   background: #FFFFFF;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
 }
-.hero--text {
+.hero__box--text {
   /* Best experience Good opportunities Valuable fellowship */
   position: absolute;
   width: 219px;
@@ -19,6 +44,12 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 16px;
+  align: center;
+  margin: 30px 48px 30px 0;
   /* or 67% */
   color: #460808;
+}
+.hero__box--text li {
+  list-style-type: circle;
+  padding: 5px 0;
 }

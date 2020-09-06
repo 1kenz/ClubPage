@@ -1,11 +1,52 @@
 .navbar {
-  width: 100%;
+  width: fit-content;
   height: 60px;
+  /* Line 1 */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 100%;
+  border: 1px solid black;
+  transform: rotate(0.14deg);
 }
 .navbar__logo {
   /* Rectangle 3 */
   position: absolute;
   width: 150px;
   height: 30px;
+  left: 15px;
+  top: 15px;
   background: #C4C4C4;
+}
+.navbar__right {
+  position: relative;
+  float: right;
+}
+.navbar__right--register {
+  /* Register */
+  position: absolute;
+  background-color: blue;
+  left: 715px;
+  top: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FF0000;
+}
+.navbar__right--login {
+  /* Login */
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 658px;
+  top: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
 }
