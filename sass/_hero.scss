@@ -25,8 +25,8 @@
         position: fixed;
         right: 150px;
         bottom: 150px;
-        width: 288px;
-        height: 140px;
+        width: 380px;
+        height: 190px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -39,16 +39,15 @@
             height: 80px;
             font-family: Roboto;
             font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
+            font-weight: 700;
+            font-size: 22px;
             line-height: 16px;
-            align: center;
-            margin: 30px 48px 30px 0;
+            margin: 25px 20px;
             /* or 67% */
             color: #460808;
             & li {
                 list-style-type: circle;
-                padding: 5px 0;
+                padding: 15px 10px;
             }
         }
     }
