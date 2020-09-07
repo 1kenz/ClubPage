@@ -1,1 +1,1 @@
-## Club-Page  https://xkendx.github.io/ClubPage/
+## https://xkendx.github.io/ClubPage/
